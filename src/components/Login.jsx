@@ -34,15 +34,13 @@ const Login = () => {
         }
     };
 
-    const handleRegister = () => {
-        navigate('/registrarse'); 
-    };
+    
 
     return (
         <div className='background-login'>
             <div className='header-login'>
                 <img className='logo-marca' src="../LogoMarca2.png" alt="" />
-                <button type="button" onClick={handleRegister} className='register-button'>Registrarse</button>
+                
             </div>
             <div className='main-login-cmp'>
                 <form onSubmit={handleLogin}>

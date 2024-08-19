@@ -20,14 +20,14 @@ const Register = () => {
   };
 
   const handleLogin = () => {
-    navigate('/login'); 
+    navigate('/users/todas-las-incidencias'); 
   };
 
   return (
     <div className='background-register'>
       <div className='header-register'>
       <img className='logo-marca' src="../LogoMarca2.png" alt="" />
-        <button type="button" onClick={handleLogin} className='back-button'>Volver al Inicio</button>
+        <button type="button" onClick={handleLogin} className='back-button'>Volver</button>
       </div>
       <div className="main-register-cmp">
 
